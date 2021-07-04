@@ -1,35 +1,3 @@
-#10952
-#두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
-'''
-while(1):
-    a, b = input("a b").split()
-    a = int(a)
-    b= int(b)
-    if (a==0 and b==0):
-        break
-    print(a + b)
-'''
-#10951
-#EOF
-'''
-while True:
-    try:
-        a, b = map(int, input().split())
-        print(a+b)
-    except:
-        break
-'''
-'''
-N = int(input("N="))
-count = 0
-newN = N
-while(1):
-    newN = 10*(newN%10)+(newN//10+newN%10)%10
-    count += 1
-    if (N == newN):
-        break
-print(count)
-'''
 #10818
 '''
 num = int(input())
@@ -74,25 +42,34 @@ new = [x/max(a)*100 for x in a]
 print(sum(new)/len(new))
 '''
 #8958
+'''
 seq = int(input())
-
 scr = []
-count = 0
+cnt_list = []
 for i in range(0,seq): #seq 만큼 반복
     scr.append(list(input()))
-print(scr)
+
 for a in scr:
     for x in range(0,len(a)):
-        for y in reversed(range(x)):
-            if a[y] == a[x]:
+        count = 0
+        for y in range(x,-1,-1):
+            if a[x] == 'O' and a[y] == 'O':
                 count += 1
             else:
                 break
+        cnt_list.append(count)
+    print(sum(cnt_list))
+    cnt_list.clear()
 
-print(count)
 '''
-for x in range(1,len(scr)+1):
-    print(x)
-    for j in (x,0):
-        print(j)
-'''
+#4344
+case_num = int(input())
+for i in range(case_num):
+    case = list(map(int,input().split()))
+    case.pop(0)
+    count = 0
+    for x in case:
+        if x > sum(case)/len(case):
+            count += 1
+    percent = count / len(case) * 100
+    print('{0:.3f}%' .format(percent))
