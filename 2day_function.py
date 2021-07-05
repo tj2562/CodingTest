@@ -23,3 +23,4 @@ for x in range(1,input_num+1):
         dif_list.append(num_list[i+1] - num_list[i])
     if len(set(dif_list)) == 1:
         count += 1
+        ''''''
