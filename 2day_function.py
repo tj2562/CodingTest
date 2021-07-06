@@ -18,9 +18,14 @@ input_num = int(input())
 dif_list = []
 count = 0
 for x in range(1,input_num+1):
-    num_list = list(map(int, str(x)))
-    for i in len(num_list)-1:
+    if x<10:
+        num_list = [0, x]
+    else:
+        num_list = list(map(int, str(x)))
+
+    for i in range(len(num_list)-1):
         dif_list.append(num_list[i+1] - num_list[i])
     if len(set(dif_list)) == 1:
         count += 1
-        ''''''
+    dif_list.clear()
+print(count)
