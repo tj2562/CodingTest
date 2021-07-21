@@ -60,7 +60,7 @@ for i in range(8):
 print(count)'''
 
 #4-3 문자열 재정렬
-inputstr = input()
+'''inputstr = input()
 alp_list = []
 isnum, sum = 0,0
 for i in inputstr:
@@ -73,4 +73,4 @@ for i in inputstr:
 alp_list.sort()
 if isnum:
     alp_list.append(str(sum))
-print("".join(alp_list))
+print("".join(alp_list))'''
