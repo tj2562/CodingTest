@@ -122,3 +122,68 @@ bfs(graph, 1, visited)'''
 ###############################################################################
 
 #DFS & BFS 기초 문제 풀이
+
+#음료수 얼려먹기
+
+'''N, M = map(int, input().split())
+ice = []
+for i in range(N):
+    ice.append(list(map(int, input())))
+print(ice)
+
+def dfs(x,y):
+    #주어진 범위를 벗어나는 경우
+    if x <= -1 or x>= N or y<=-1 or y >= M:
+        return False
+    #현재노드를 아직 방문하지 않았다면,
+    if ice[x][y] == 0:
+        #해당 노드방문 처리
+        ice[x][y] = True
+        #상, 하, 좌, 우의 위치도 모두 재귀적으로 호출
+        dfs(x-1, y)
+        dfs(x, y-1)
+        dfs(x+1, y)
+        dfs(x, y+1)
+        return True
+
+result = 0
+for i in range(N):
+    for j in range(M):
+        #현재 위치에서 DFS 수행
+        if dfs(i,j) == True:
+            result += 1
+            
+'''
+
+# 미로탈출 BFS
+from collections import deque
+
+n,m = map(int, input().split())
+route = []
+for i in range(n):
+    route.append(list(map(int, input())))
+print(route)
+
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
+
+def bfs(x,y):
+    queue = deque()
+    queue.append((x,y))
+    while queue:
+        x, y= queue.popleft()
+        continue
+        if route[nx][ny] == 1:
+            route[nx][ny] = route[x][y] + 1
+            queue.append((nx, ny))
+
+
+return route[n - 1][m - 1]
+
+print(bfs(0, 0))
+for i in range(4):
+            nx = x+dx[i]
+            ny = y+dy[i]
+            if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                continue
+            if route[nx][ny] == 0:
