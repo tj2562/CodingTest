@@ -185,3 +185,4 @@ for i in range(4):
             if nx < 0 or nx >= n or ny < 0 or ny >= m:
                 continue
             if route[nx][ny] == 0:
+                continue
