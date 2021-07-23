@@ -176,9 +176,7 @@ def bfs(x,y):
         if route[nx][ny] == 1:
             route[nx][ny] = route[x][y] + 1
             queue.append((nx, ny))
-
-
-return route[n - 1][m - 1]
+    return route[n - 1][m - 1]
 
 print(bfs(0, 0))
 for i in range(4):
