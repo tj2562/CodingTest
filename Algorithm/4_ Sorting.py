@@ -94,3 +94,14 @@ for i in range(len(count)):#리스트에 기록된 정렬 정보 확인
         print(i,end='') # 띄어쓰기를 구분으로 등장한 횟수만큼 인덱스 출력
 
 #실행 결과 0 0 1 1 2 2 3 4 5 5 6 7 8 9 9'''
+
+'''n, k = map(int,input().split())
+A = list(map(int, input().split(' ')))
+B = list(map(int, input().split(' ')))
+A.sort(), B.sort(reverse=True)
+for i in range(k):
+    if A[i] < B[i]:
+        A[i], B[i] = B[i], A[i]
+    else:
+        break
+print(sum(A))'''
