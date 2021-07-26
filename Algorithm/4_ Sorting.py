@@ -105,3 +105,27 @@ for i in range(k):
     else:
         break
 print(sum(A))'''
+
+'''# 2_위에서 아래로
+n = int(input())
+nlist = []
+for i in range(n):
+    nlist.append(int(input()))
+nlist.sort(reverse=True)
+for i in range(n):
+    print(nlist[i], end=' ')'''
+
+#3_성적이 낮은 순서대로 학생 출력하기
+n = int(input())
+
+array = []
+for i in range(n):
+    input_data = input().split()
+    array.append((input_data[0],int(input_data[1])))
+
+array = sorted(array, key=lambda student: student[1])
+
+for student in array:
+    print(student[0], end=' ')
+
+#4_두 배열의 원소 교체
