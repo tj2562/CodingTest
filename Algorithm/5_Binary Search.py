@@ -78,7 +78,7 @@ for i in x:
         print("no", end= " ")
 '''
 
-n, x = map(int,input().split())
+'''n, x = map(int,input().split())
 def binary_search(array, target, start, end):
     mid = (start + end)//2
     if start > end:
@@ -88,4 +88,4 @@ def binary_search(array, target, start, end):
     elif array[mid] > target:
         return binary_search(array,target,start,mid-1)
     else:
-        return binary_search(array,target,mid+1,end)
+        return binary_search(array,target,mid+1,end)'''
