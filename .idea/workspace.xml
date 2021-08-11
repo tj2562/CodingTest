@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72521516-86a4-439b-bf36-392c4126489c" name="디폴트 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,28 +48,7 @@
       <recent name="C:\Users\kwang\Desktop\CodingTest\Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5_Binary Search">
-    <configuration name="1_Greedy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CodingTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/1_Greedy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.6_DynamicProgramming">
     <configuration name="1day_while" type="PythonConfigurationType" factoryName="Python">
       <module name="CodingTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,13 +154,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6_DynamicProgramming" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodingTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/6_DynamicProgramming.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6_DynamicProgramming" />
         <item itemvalue="Python.5_Binary Search" />
         <item itemvalue="Python.4_ Sorting" />
         <item itemvalue="Python.3_DFS&amp;BFS" />
         <item itemvalue="Python.2_Implementation" />
-        <item itemvalue="Python.1_Greedy" />
       </list>
     </recent_temporary>
   </component>
@@ -178,29 +196,41 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="268" key="GridCell.Tab.0.bottom" timestamp="1627365028691">
+    <state width="1515" height="144" key="GridCell.Tab.0.bottom" timestamp="1628181941072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627302481812" />
+    <state width="1515" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1628181941072" />
     <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626878098071" />
     <state width="1515" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627365028691" />
-    <state width="1515" height="268" key="GridCell.Tab.0.center" timestamp="1627365028691">
+    <state width="1515" height="144" key="GridCell.Tab.0.center" timestamp="1628181941072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627302481811" />
+    <state width="1515" height="144" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1628181941072" />
     <state width="1899" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626878098071" />
     <state width="1515" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627365028691" />
-    <state width="1515" height="268" key="GridCell.Tab.0.left" timestamp="1627365028691">
+    <state width="1515" height="144" key="GridCell.Tab.0.left" timestamp="1628181941072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627302481811" />
+    <state width="1515" height="144" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1628181941072" />
     <state width="1899" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626878098071" />
     <state width="1515" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627365028691" />
-    <state width="1515" height="268" key="GridCell.Tab.0.right" timestamp="1627365028691">
+    <state width="1515" height="144" key="GridCell.Tab.0.right" timestamp="1628181941072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627302481811" />
+    <state width="1515" height="144" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1628181941072" />
     <state width="1899" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626878098071" />
     <state width="1515" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627365028691" />
     <state width="1515" height="268" key="GridCell.Tab.1.bottom" timestamp="1627365028692">
@@ -231,10 +261,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1920" y="0" width="1104" height="589" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626610301679" />
-    <state x="412" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1627297000703">
+    <state x="412" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1628670325243">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="412" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627297000703" />
-    <state x="412" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1626856133870" />
+    <state x="412" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1628670325243" />
   </component>
 </project>
